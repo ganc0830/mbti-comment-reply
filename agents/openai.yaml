@@ -1,0 +1,6 @@
+interface:
+  display_name: "小红书评论回复助手"
+  short_description: "融合五种人格的温暖自然表达，接入本地小红书评论读取、拟稿与授权回复，不处理私信"
+  default_prompt: "使用 $mbti-comment-reply，结合这篇笔记的上下文，为评论拟写自然、有温度的回复，先给我看草稿，不处理私信。"
+policy:
+  allow_implicit_invocation: true

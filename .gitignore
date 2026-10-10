@@ -1,0 +1,23 @@
+# Local credentials and runtime state must not be published.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+state.json
+accounts.json
+cookies*
+credentials*
+token*
+cache/
+tmp/
+temp/
+logs/
+screenshots/
+browser-profile/
+.DS_Store
+Thumbs.db
